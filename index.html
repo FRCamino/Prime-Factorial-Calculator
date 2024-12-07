@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ellinov - Prime and Factorial Calculator</title>
+</head>
+<body>
+    <!-- Box that holds the entire calculator content -->
+    <div class="box">
+        <!-- Box that holds the entire calculator content -->
+        <div class="content">
+            <!-- Header section with title and styling -->
+            <div class="header">
+                <h2>Prime and Factorial <span class="calc">Calculator</span></h2>
+            </div>
+
+            <!-- Instructions for the user -->
+            <div class="instructions">
+                <p>
+                    <span class="ins">Instructions:</span> Enter a number in 
+                    the box below and click <u>Check Prime</u> to determine 
+                    if it's a prime number, or <u>Find Factorial</u> 
+                    to calculate its factorial.
+                </p>
+            </div>
+
+            <!-- User input section for number entry -->
+            <div class="input">
+                <label for="u-input">Enter Number:</label>
+                <!-- Input field for number entry -->
+                <input type="number" id="u-input" placeholder="Enter a number (e.g., 5)" required>
+            </div>
+
+            <!-- Buttons for checking prime and finding factorial -->
+            <div class="buttons">
+                <!-- Button to check if the number is prime -->
+                <button class="p-button" id="c-prime">Check Prime</button>
+                <!-- Button to find the factorial of the number -->
+                <button class="f-button" id="c-factorial">Find Factorial</button>
+            </div>
+
+            <!-- Section to display the result of prime check or factorial -->
+            <div class="result">
+                <span class="res">Result:</span>
+                <!-- This div will hold the result content -->
+                <div id="result"></div>
+                <p class="comment"><span class="com"></span></p>
+            </div>
+
+            <!-- Footer with author information -->
+            <div class="footer">
+                Created by: Franzis Elmo Camino
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

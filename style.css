@@ -1,0 +1,159 @@
+/* Reset default margin, padding, and set box-sizing for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Set the background color for the body */
+body{
+    background-color: darkgray;
+}
+
+/* Center the box div on the page */
+.box{
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  /* Adjust for exact centering */
+    height: 600px;
+    width: 400px;
+}
+
+/* Style for all of the content */
+.content{
+    background-color: #84DCC6;
+    border: 6px #4B4E6D solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+    color: #3B3D54;
+}
+
+/* Header section with title */
+.header{
+    font-size: 23px;
+    line-height: 1.25;
+    color: beige;
+    background-color: #4B4E6D;
+    border-radius: 10px;
+    border-bottom: 5px solid #3f3f3f;
+    border-right: 5px solid #3f3f3f;
+    padding: 10px;
+}
+
+/* Highlight "Calculator" in a different color */
+.calc{
+    color: rgb(135, 211, 135);
+}
+
+/* Instruction Section, text block style */
+.instructions{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    background-color: rgba(149, 164, 179, .6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Bold the instructions label for emphasis */
+.ins{
+    font-weight: bold;
+    color: #222222;
+}
+
+/*  Emphasize the word 'Check Prime'
+    'Find Factorial'*/
+u{
+    font-weight: bold;
+}
+
+/* Input section with label and input box */
+.input{
+    background-color: #4B4E6D;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 5px solid #3f3f3f;
+    border-right: 5px solid #3f3f3f;
+}
+
+/*Styling the Label of the input field */
+.input label{
+    font-weight: bold;
+    color: beige;
+    font-size: 20px;
+}
+
+/* Styling the input field */
+.input input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 0;
+    text-align: center;
+}
+
+/* Buttons section, to layout the 
+check prime and find factorial buttons */
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* General button styles */
+.p-button, .f-button{
+    background-color: #4B4E6D;
+    font-size: 15px;
+    font-weight: bold;
+    color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    width: 125px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease;
+    border-bottom: 5px solid #3f3f3f;
+    border-right: 5px solid #3f3f3f;
+}
+
+/* Hover effect for buttons */
+.p-button:hover, .f-button:hover{
+    background-color: #6C7A89;
+    border: none;
+}
+
+/* Styling for the result section */
+.result{
+    font-weight: bold;
+    font-size: px;
+    text-align: left;
+    background-color: #4B4E6D;
+    color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border-bottom: 5px solid #3f3f3f;
+    border-right: 5px solid #3f3f3f;
+    display: flex;
+}
+
+/* Styling the Answer of the Calculator*/
+.comment{
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+/* Signature*/
+.footer{
+    margin-top: 30px;
+}
+
+    
